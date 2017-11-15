@@ -212,7 +212,9 @@
             }
             //Rend visible le bouton rejouer
             document.getElementById("rejouer").style.visibility = "visible";
-            document.getElementById("rejouer").onclick(location.reload());
+            document.getElementById("rejouer").onclick = function() {
+                location.reload());
+            }
 
 
         }
